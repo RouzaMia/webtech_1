@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment_1</title>
+</head>
+<body>
+	 <h2>Student Registration form</h2>
+<form action="process.html" method="POST">
+<label>Firstname</label>
+<div>
+<input type="text" name="fName" placeholder="First name">
+</div>
+<br><label>Middlename</label>
+<div>
+<input type="text" name="mName" placeholder="Middle name">
+</div>
+<br><label>Lastname</label>
+<div>
+<input type="text" name="lName" placeholder="Last name">
+</div> <br>
+<!--optgroup-->
+<div>
+<label>Courses :</label>
+<select name="courses">
+<optgroup label="CSE">
+<option value="Algorithm">Algorithm</option>
+<option value="Webtech">Webtech</option>
+<option value="ArtificialIntelligence">ArtificialIntelligence</option>
+<option value="ComputerNetworks">ComputerNetworks</option>
+</optgroup>
+<optgroup label="EEE">
+<option value="DLD">DLD</option>
+<option value="DEC">DEC</option>
+<option value="ElectronicDevices">ElectronicDevices</option>
+</optgroup>
+</select>
+</div><br>
+<!--RADIO BUTTON with checked attribute-->
+<label>Gender</label>
+<div>
+<input type="radio" name="gender" value="Male" checked> Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="other"> Other
+</div><br>
+<!--PhoneNumber-->
+<label>Phone :</label>
+<div>
+<input type="text" name="Phone" placeholder="+91">
+</div><br>
+<div>
+<input type="number" name="Phone" placeholder="phone no." required>
+</div><br>
+<!--Address-->
+<label>Current Address</label>
+<div>
+<textarea type="text" name="Address" placeholder="Current Address" required></textarea>
+</div><br>
+<!--Email Address-->
+<label>Email</label>
+<div>
+<input type="email" name="Email" placeholder="Enter Email" autocomplete="on" required>
+</div><br>
+<!--Password-->
+<label>Password</label>
+<div>
+<input type="password" name="password" placeholder="Enter Password" required>
+</div><br>
+<label>Re-type Password</label>
+<div>
+<input type="password" name="Re-type Password" placeholder="Re-type Password" required>
+</div><br>
+<footer>
+<input type="submit" name="Register" value="Register">
+</footer>
+</form>
+</body></html>
